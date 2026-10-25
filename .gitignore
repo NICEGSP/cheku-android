@@ -1,0 +1,21 @@
+# Gradle / IDE
+.gradle/
+.kotlin/
+build/
+captures/
+.idea/
+*.iml
+.DS_Store
+
+# 本机配置：SDK 路径、服务端地址、公钥等
+local.properties
+
+# 签名与密钥
+secrets/
+*.jks
+*.keystore
+keystore.properties
+
+# 构建产物
+*.apk
+*.aab

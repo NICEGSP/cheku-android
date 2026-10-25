@@ -1,0 +1,33 @@
+车库 CheKu
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project includes code derived from:
+
+  AndroidLiquidGlass
+  https://github.com/Kyant0/AndroidLiquidGlass
+  Licensed under the Apache License, Version 2.0.
+
+The following files are derived from that project and have been modified
+for CheKu. Each of them carries a header stating its origin:
+
+  glassui/src/androidMain/kotlin/com/cheku/glass/ui/utils/Coroutines.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidBottomTab.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidBottomTabs.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidButton.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidRangeSlider.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidSlider.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/components/LiquidToggle.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/utils/Coroutines.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/utils/DampedDragAnimation.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/utils/DragGestureInspector.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/utils/InteractiveHighlight.kt
+  glassui/src/commonMain/kotlin/com/cheku/glass/ui/utils/ProgressConverter.kt
+  app/src/main/java/com/cheku/app/glass/internal/InverseLayerScope.kt
+  app/src/main/java/com/cheku/app/glass/internal/LayerRecorder.kt
+  app/src/main/java/com/cheku/app/glass/internal/Outline.kt
+  app/src/main/java/com/cheku/app/glass/internal/Shaders.kt
+  app/src/main/java/com/cheku/app/glass/internal/ShapeProvider.kt
+  app/src/main/java/com/cheku/app/glass/motion/DampedDragAnimation.kt
+
+The published libraries io.github.kyant0:backdrop and io.github.kyant0:shapes
+are used as regular dependencies under their own licenses.
